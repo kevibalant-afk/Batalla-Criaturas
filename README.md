@@ -4,17 +4,17 @@
 
 ```mermaid
 classDiagram
-  interface Volador {
+  class Volador <<interface>> {
     +volar(): void
     +aterrizar(): void
   }
 
-  interface Magico {
+  class Magico <<interface>> {
     +lanzarHechizo(): void
     +aprenderHechizo(n: String): void
   }
 
-  abstract class Criatura {
+  class Criatura <<abstract>> {
     -nombre: String
     -salud: int
     -fuerza: int
