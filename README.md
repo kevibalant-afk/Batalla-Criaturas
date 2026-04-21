@@ -1,7 +1,8 @@
-# Batalla-Criaturas
-Integrantes: 
-# Kevin Adrian Balanta
-# Luis Alberto Fernandez Viveros
+# Integrantes
+- Kevin Adrian Balanta  
+- Luis Alberto Fernandez Viveros  
+
+```mermaid
 classDiagram
   interface Volador {
     +volar(): void
@@ -76,3 +77,4 @@ classDiagram
   Criatura <|-- Guerrero
   Volador <|.. Dragon
   Magico <|.. Mago
+
