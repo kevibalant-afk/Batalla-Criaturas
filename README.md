@@ -123,6 +123,3 @@ classDiagram
 - Kevin Adrian Balanta
 - Luis Alberto Fernandez Viveros
 
-
-- Integrante 1
-- Integrante 2
